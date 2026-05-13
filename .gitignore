@@ -1,0 +1,26 @@
+# User credentials — never commit your real config
+config.py
+
+# Runtime data
+data/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

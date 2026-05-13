@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python main.py)",
+      "Bash(echo \"PID: $!\")",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(python -c ' *)",
+      "Bash(taskkill /F /IM python.exe)",
+      "PowerShell(Stop-Process -Name python -Force -ErrorAction SilentlyContinue)",
+      "Bash(python -c \"import config; print\\(repr\\(config.DASHBOARD_PASSWORD\\)\\)\")",
+      "PowerShell(@\\(2424, 11904, 10372, 7760\\) | ForEach-Object { Stop-Process -Id $_ -Force -ErrorAction SilentlyContinue }; Write-Output \"All killed\")",
+      "PowerShell(\\([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent\\(\\)\\).IsInRole\\([Security.Principal.WindowsBuiltInRole]::Administrator\\))",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(Remove-Item \"C:\\\\Users\\\\USER\\\\Documents\\\\Claude\\\\Projects\\\\Flynk ev\\\\wifi-attendance\\\\.git\\\\config.lock\" -Force)"
+    ]
+  }
+}
